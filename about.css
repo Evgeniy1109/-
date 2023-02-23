@@ -24,3 +24,16 @@ h2{
 .nav a{
     color: #000000;
 }
+.header_icon_telephone{
+    background-color: #41AF1E;
+    color: #ffffff;
+}
+.header_icon_vk{
+    background-color: #0077FF;
+}
+.header_icon_telegram{
+    background-color: #419FD9;
+}
+.header_icon_vk:hover, .header_icon_telegram:hover{
+    background-color: #132C33;
+}
