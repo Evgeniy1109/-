@@ -279,7 +279,7 @@ h2 {
 
 .advantages_block {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     padding-top: 45px;
     padding-bottom: 128px;
@@ -296,14 +296,50 @@ h2 {
     background-color: #132c33;
 }
 
+
+
+
+
 @media (max-width: 1300px) {
      .header_icon {
         display: none;
     }
+    .header_block{
+        justify-content: space-between;
+    }
+    .nav{
+        margin: 0;
+    }
     .hiking_block {
         justify-content: center;
     }
+    .header_block_description{
+        justify-content: center;
+        padding-top: 51px;
+        padding-bottom: 56px;
+    }
+    .header_box{
+        width: 60%;
+        display: block;
+        padding-top: 96px;
+    }
+    .header_box_link{
+        justify-content: center;
+    }
+    .advantages_block{
+        flex-wrap: wrap;
+    }
+}
 
+@media (max-width: 1300px) {
+    .hiking_block{
+        width: 80%;
+        margin: 0 auto;
+        gap: 30px;
+    }
+    .hiking_point{
+        display: none;
+    }
 }
 
 
@@ -313,6 +349,7 @@ h2 {
         display: none;
     }
     .header_box {
+        width: 100%;
         display: block;
     }
     .header_block_description {
@@ -391,6 +428,10 @@ h2 {
 
 @media (max-width: 380px) {
     h2 {
-        font-size: 30px;
+        font-size: 28px;
+        padding-top: 41px;
+    }
+    .header_box_title>h1{
+        text-align: start;
     }
 }
