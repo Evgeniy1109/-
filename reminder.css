@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    font-family: 'Euclid Circular A', sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 48px;
+    line-height: 61px;
+    font-weight: 700;
+    color: #000000;
+    padding-top: 100px;
+}
+
+.nav a{
+    color: #000000;
+}

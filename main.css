@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body {
+    font-family: "Euclid Circular A", sans-serif;
+}
+h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 61px;
+    font-weight: 700;
+    color: #000000;
+    padding-top: 100px;
+}
+
+.header_schedule,
+.header_reminder,
+.header_about {
+    padding-top: 25px;
+}
+.header {
+    width: 100%;
+    background-image: url("img/Фон.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 25px;
+    padding-bottom: 200px;
+}
+.header_block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav {
+    margin-left: 212px;
+    margin-right: 88px;
+}
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.nav a:hover {
+    color: #132c33;
+}
+.nav a:active {
+    color: #132c33;
+}
+.nav li {
+    list-style: none;
+}
+.menu > img {
+    padding-top: 21px;
+    padding-bottom: 73px;
+}
+.menu {
+    text-align: end;
+    width: 80%;
+    height: auto;
+    background-color: rgba(19, 44, 51, 1);
+    opacity: 1;
+    padding-top: 50px;
+    padding-right: 30px;
+    position: fixed;
+    right: -3000px;
+    transition: 1s;
+}
+
+.menu li {
+    text-align: end;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.menu_btn {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    border: 1px solid #fbac1e;
+    background-color: #fbac1e;
+    padding: 11px 30px 11px 30px;
+    border-radius: 7px;
+    margin-top: 50px;
+    margin-bottom: 91px;
+}
+.menu_btn:hover {
+    background-color: #ffca3c;
+}
+.menu_btn:active {
+    background-color: #e79814;
+}
+.menu_link > a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.menu.animate {
+    top: 0px;
+    right: 0;
+}
+.menu_tel {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.menu_tel > img {
+    margin-right: 15px;
+    color: #ffffff;
+}
+.menu_tel > p {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.menu_icon > img {
+    margin-left: 23px;
+    margin-bottom: 85px;
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+.header_icon {
+    display: flex;
+    gap: 15px;
+}
+.header_icon_telephone,
+.header_icon_telegram,
+.header_icon_vk {
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+.header_icon_telephone:active,
+.header_icon_telegram:active,
+.header_icon_vk:active {
+    background-color: #e79814;
+}
+.header_icon_telegram:hover,
+.header_icon_vk:hover {
+    background-color: #ffca3c;
+}
+
+.header_link > a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 12px 15px;
+    border: 1px solid #fbac1e;
+    background-color: #fbac1e;
+    border-radius: 4px;
+    margin-left: 21px;
+}
+.header_link > a:hover {
+    background-color: #ffca3c;
+    border: 1px solid #ffca3c;
+}
+.header_link > a:active {
+    background-color: #e79814;
+    border: 1px solid #e79814;
+}
+.header_info_box {
+    width: 100%;
+    display: flex;
+}
+.header_box_title h1 {
+    text-align: center;
+    font-size: 62px;
+    line-height: 78px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.header_box {
+    display: flex;
+    padding-top: 220px;
+    padding-bottom: 45px;
+}
+.header_block_description {
+    display: flex;
+}
+.header_block_img {
+    width: 174px;
+    padding: 10px;
+    gap: 15px;
+    text-align: center;
+}
+.header_block_description p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-top: 16px;
+}
+.header_box_link a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    border: 4px solid #fbac1e;
+    border-radius: 7px;
+    padding: 10px 14px;
+}
+.header_box_link a:hover {
+    border: 4px solid #ffca3c;
+}
+.header_box_link a:active {
+    border: 4px solid #e79814;
+}
+.header_box_link {
+    display: flex;
+    align-items: center;
+    margin-left: 94px;
+}
+
+/* Модальное  */
+
+/* hiking */
+
+.hiking_advantages {
+    background-image: url(img/sect-benefits.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hiking_block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 111px;
+}
+.hiking_img {
+    text-align: center;
+}
+.hiking_img:last-child {
+    padding-right: 0;
+    border: 0;
+}
+.hiking_point {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fbac1e;
+    background-color: #fbac1e;
+    border-radius: 50%;
+    align-items: center;
+}
+.hiking_img > img {
+    padding-bottom: 10px;
+}
+
+/* advantages */
+
+.advantages_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 128px;
+    gap: 48px;
+}
+.advantages_img {
+    max-width: 170px;
+    text-align: center;
+}
+
+/* crimea */
+
+.crimea {
+    background-color: #132c33;
+}
+
+@media (max-width: 1300px) {
+     .header_icon {
+        display: none;
+    }
+    .hiking_block {
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 855px) {
+    .nav,
+    .header_link {
+        display: none;
+    }
+    .header_box {
+        display: block;
+    }
+    .header_block_description {
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    .header_block_description p {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+    .header_box_link {
+        margin: 0;
+        justify-content: center;
+    }
+    .hiking_point {
+        display: none;
+    }
+    .hiking_block {
+        gap: 15px;
+        padding-bottom: 0;
+    }
+    .hiking_img p {
+        padding-bottom: 15px;
+    }
+    .header_box {
+        padding-top: 50px;
+    }
+    .header_burger{
+        display: flex;
+        justify-content: end;
+    }
+    .burger {
+        top: 72px;
+        right: 20px;
+        position: relative;
+        width: 35px;
+        height: 35px;
+    }
+    .burger span,
+    .burger span:before,
+    .burger span:after {
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #333;
+        transition: 0.5s;
+    }
+    .burger span:before {
+        content: "";
+        top: -10px;
+    }
+    .burger span {
+        top: 15px;
+        right: 1px;
+    }
+    .burger span:after {
+        content: "";
+        bottom: -10px;
+    }
+    .burger span.active:before {
+        content: "";
+        top: 0px;
+        transform: rotate(45deg);
+    }
+    .burger span.active:after {
+        content: "";
+        bottom: 0;
+        transform: rotate(-45deg);
+    }
+    .burger span.active {
+        background: rgba(255, 255, 255, 0);
+    }
+}
+
+@media (max-width: 380px) {
+    h2 {
+        font-size: 30px;
+    }
+}
