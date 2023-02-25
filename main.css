@@ -43,7 +43,7 @@ h2 {
 
 .nav {
     margin-left: 212px;
-    margin-right: 88px;
+    margin-right: 87px;
 }
 .nav ul {
     display: flex;
@@ -238,6 +238,82 @@ h2 {
 
 /* Модальное  */
 
+.modal_close{
+    display: none;
+}
+.modal_form_active{
+    position: fixed;
+}
+.modal_window_img_close{
+    position: absolute;
+    top: 25px;
+    right: 42px;
+    cursor: pointer;
+}
+.modal_window_img {
+    position: absolute;
+    left: 222px;
+}
+.modal_form_p{
+    position: absolute;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #ffffff;
+    bottom: 117px;
+    right: 80px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #ffffff;
+    width: 440px;
+}
+.modal_form {
+    position: absolute;
+    max-width: 510px;
+    padding: 14px 0px 40px 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    top: 90px;
+    left: -222px;
+}
+.modal_form_application {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #000000;
+    padding-bottom: 25px;
+}
+.modal_application {
+    display: flex;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #000000;
+    padding-top: 15px;
+}
+.modal_application img{
+    margin-right: 20px;
+}
+.modal_application_input {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: none;
+    max-width: 300px;
+    font-size: 20px;
+}
+.modal_form_btn {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 11px 42px 11px 42px;
+    border: none;
+    background-color: #fbac1e;
+    border-radius: 7px;
+    display: block;
+    margin: 30px auto 0;
+}
+
+
 /* hiking */
 
 .hiking_advantages {
@@ -278,7 +354,6 @@ h2 {
 
 .advantages_block {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
     padding-top: 45px;
     padding-bottom: 128px;
